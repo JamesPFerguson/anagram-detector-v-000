@@ -8,6 +8,6 @@ class Anagram
   end
 
   def match(words)
-    words.select!{|w| w = /[#{@word}]/ }
+    words.select{|w| w = /[#{self.word}]/ }
   end
 end
