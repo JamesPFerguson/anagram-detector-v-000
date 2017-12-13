@@ -9,4 +9,5 @@ class Anagram
 
   def match(words)
     words.find_all(/[self.word]/)
+  end
 end
