@@ -8,6 +8,6 @@ class Anagram
   end
 
   def match(words)
-    words.find_all(/[#{@word}]/)
+    words.select(/[#{@word}]/)
   end
 end
